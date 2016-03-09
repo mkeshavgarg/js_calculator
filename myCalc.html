@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Calc</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body class="body">
+        <div class="calculator">
+
+            <div id="display"></div>
+
+            <div class="keys">
+                <ul>
+                    <li onclick="myCal(1)"> 1</li>
+                    <li onclick="myCal(2)"> 2</li>
+                    <li onclick="myCal(3)"> 3</li>
+                    <li onclick="myCal(4)"> 4</li>
+                    <li onclick="myCal(5)"> 5</li>
+                    <li onclick="myCal(6)"> 6</li>
+                    <li onclick="myCal(7)"> 7</li>
+                    <li onclick="myCal(8)"> 8</li>
+                    <li onclick="myCal(9)"> 9</li>
+                    <li style="width:160px" onclick="myCal(0)"> 0</li>
+                    <li onclick="myOp('dec')"> .</li>
+                </ul>
+            </div>
+
+            <div class="operators">
+                <ul class="operator-list">
+                    <li onclick="myOp('add')"> +</li>
+                    <li onclick="myOp('sub')"> -</li>
+                    <li onclick="myOp('mult')"> *</li>
+                    <li onclick="myOp('div')"> /</li>
+                    <li onclick="myOp('brac1')"> %</li>
+                    <li onclick="myOp('brac2')"> )</li>
+                    <li onclick="myOp('equal')"> =</li>
+                    <li onclick="myOp('clear')"> C</li>
+                    <li onclick="myOp('remove')"> R</li>
+                    <li onclick="alert('welcome to World of Mathematics ')" style="width:250px"><i>MY CALC</i></li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>

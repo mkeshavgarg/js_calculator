@@ -1,0 +1,103 @@
+
+body {
+    background: white;
+}
+
+#display {
+    background:#D8D8D8;
+    border-radius: 5px;
+    font-size:40px;
+    height: 60px;
+    padding:10px 10px 0 0;
+    text-align:right;
+    width: 600px;
+}
+.calculator {
+    background: #F8F8F0;
+    border: 3px solid #909090;
+    border-radius: 10px;
+    height: 460px;
+    margin: 150px 0 0 300px;
+    padding: 15px;
+    width: 600px;
+}
+
+.keys {
+    background: #909090;
+    border-radius: 5px;
+    clear: both;
+    display: inline-block;
+    width: 290px;
+    height: 365px;
+    margin-top: 10px;
+}
+
+.operators {
+    width: 290px;
+    height: 365px;
+    background: #909090;
+    float: right;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.keys ul, .operator-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.keys li:hover {
+    font-size: 2.6em;
+    cursor: pointer;
+}
+
+.operator-list li:hover {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.operator-list {
+    position: absolute;
+    display: block;
+}
+
+.keys li:active {
+    background: #909090;
+}
+
+.operator-list li:active {
+    background: #909090;
+}
+
+.keys li {
+    background: white;
+    border-radius: 3px;
+    float: left;
+    font-size: 2em;
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 0;
+    text-align: center;
+    padding: 16px 16px 0 0;
+}
+
+.operator-list li {
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 0;
+    background: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 2.4em;
+    border-radius: 3px;
+
+}
+
+
+
